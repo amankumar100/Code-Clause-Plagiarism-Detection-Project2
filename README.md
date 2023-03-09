@@ -8,7 +8,9 @@ This compares the two different files and detects the amount of plagiarism.
 
 I have mentioned the simple python code below.
 
-To execute it just copy the code and instead of 2 different file locations at line 2 put your 2 different file locations.
+To execute it just copy the code and paste it in any editor and instead of "File Focation 1" and "File location 2", put your own 2 different file locations by copying the path of your 2 different files.
+
+It will compare and execute the percentage of plagiarism in 2 different files.
 
 
 

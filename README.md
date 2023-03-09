@@ -12,14 +12,14 @@ To execute it just copy the code and instead of 2 different file locations at li
 
 
 
-from difflib import SequenceMatcher          # here difflib can be used as conjunction for AI and ML for plagiarism detection
+    from difflib import SequenceMatcher          # here difflib can be used as conjunction for AI and ML for plagiarism detection
 
-with open(r"File location 1") as file1, open(r"File Location 2") as file2: #opens 2 different files assigning them to file1 and file2
+    with open(r"File location 1") as file1, open(r"File Location 2") as file2: #opens 2 different files assigning them to file1 and file2
     
-    file1_data = file1.read()        #reads the file 1
+         file1_data = file1.read()        #reads the file 1
     
-    file2_data = file2.read()        #reads the file 2
+         file2_data = file2.read()        #reads the file 2
     
-    similarity_ratio=SequenceMatcher(None, file1_data, file2_data).ratio() #will generate the ratio as per comparison of 2 files
+         similarity_ratio=SequenceMatcher(None, file1_data, file2_data).ratio() #will generate the ratio as per comparison of 2 files
     
-    print('Plagiarism detected = ',similarity_ratio*100,'%')  #It gives the percentage of plagiarism in the file.
+         print('Plagiarism detected = ',similarity_ratio*100,'%')  #It gives the percentage of plagiarism in the file.
